@@ -16,3 +16,17 @@ h2 {
   font-weight: bold;
   padding: 10px;
 }
+
+p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.login {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  text-align: center;
+  padding: 5px;
+  float: right;
+}
