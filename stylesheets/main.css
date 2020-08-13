@@ -30,3 +30,34 @@ p {
   padding: 5px;
   float: right;
 }
+
+nav {
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  font-size: 12pt;
+  padding: 15px;
+}
+
+main {
+  position: absolute;
+  left: 0px;
+  padding: 20px;
+  width: 75vw;
+  margin-bottom: 50px;
+}
+
+.subject {
+  max-width: 72vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
