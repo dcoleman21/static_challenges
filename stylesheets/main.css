@@ -4,22 +4,35 @@ html {
 
 header {
   background-color: black;
+  left: 0px;
 }
 
 h1 {
-  font-size: 16pt;
-  padding: 10px;
+  color: white;
+  font-size: 30pt;
+  padding: 25px;
   font-weight: bold;
 }
 
 h2 {
+  color: white;
   font-weight: bold;
-  padding: 10px;
+  padding: 20px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 10pt;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 p {
+  width: auto;
   margin-top: 6px;
   margin-bottom: 6px;
+  background-color: black;
+  color: white;
 }
 
 .login {
@@ -29,25 +42,47 @@ p {
   text-align: center;
   padding: 5px;
   float: right;
+  color: white;
+}
+
+nav ul{
+  list-style-type: none;
+	margin: 10;
+	padding: 15;
+	text-align: center;
+	margin-top: 15px;
+  word-spacing: 300px;
 }
 
 nav {
-  background-color: blue;
-  text-align: center;
+  background-color: 06255F;
   color: white;
 }
 
-a {
+nav a {
+  text-decoration: none;
+	font-family: system-ui;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
   color: white;
 }
 
-ul {
+/* ul {
   font-size: 12pt;
   padding: 15px;
+} */
+.container {
+  postition: relative;
+  text-align: left;
+  color: white;
+  top: 8px;
+  left: 16px;
 }
-
 main {
-  position: absolute;
   left: 0px;
   padding: 20px;
   width: 75vw;
@@ -55,7 +90,7 @@ main {
 }
 
 .subject {
-  max-width: 72vw;
+  max-width: 75vw;
   height: auto;
   display: block;
   margin-left: auto;
@@ -63,14 +98,26 @@ main {
 }
 
 .sidebar {
-  position: absolute;
   right: 0px;
-  padding: 1vw;
+  padding: 10vw;
 }
 
 .sidebar_element {
   width: 15vw;
   height: auto;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 50px;
+}
+
+footer {
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer_text {
+  padding: 10px;
 }
